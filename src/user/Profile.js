@@ -1,0 +1,11 @@
+import Base from "../core/Base"
+
+const Profile = () => {
+    return ( 
+        <Base title ="Profile page">
+            <h1>This is Profile pade</h1>
+        </Base>
+     );
+}
+ 
+export default Profile;
