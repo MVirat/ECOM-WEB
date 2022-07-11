@@ -13,9 +13,9 @@ const currentTab = (history, path ) => {
 
 const Menu = ({history}) => {
     return (
-        <div>
+        <div >
         <div className="row">
-        <div className="col-6">
+        <div className="col-6 pado">
         <ul className="nav  bg-dark ">
         <li className="nav-item">
           <Link style={currentTab(history, "/")} className="nav-link" to="/">
@@ -60,7 +60,7 @@ const Menu = ({history}) => {
       </ul></div>
 
 
-        <div className="col-6">
+        <div className="col-6 pado">
         <ul className="nav  bg-dark justify-content-end">
         {!isAutheticated() && (
           <Fragment>

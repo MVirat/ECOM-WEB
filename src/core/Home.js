@@ -24,13 +24,13 @@ const Home = () => {
     }, []);
 
     return ( 
-        <Base title="Home Page">
-            <div className="row text-center">
-                <h1 className="text-white">All of Tshirt</h1>
-                <div className="row">
+        <Base title="Home Page"  decription="Happy Shopping">
+            <div className="row text-center jc">
+                <h1 className="text-white ">All Products</h1>
+                <div className="row jc">
                     {products.map((product, index) => {
                         return(
-                            <div key={index} className="col-4 mb-4">
+                            <div key={index} className="co ">
                                 <Card product={product}/>
                             </div>
                         )

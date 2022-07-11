@@ -2,8 +2,8 @@ import Base from "../core/Base"
 
 const UserDashBoard = () => {
     return ( 
-        <Base title ="UserDashBoard page">
-            <h1>This is UserDashBoard pade</h1>
+        <Base title ="UserDashBoard Page">
+            <h1>This is Userdashboard Page</h1>
         </Base>
      );
 }

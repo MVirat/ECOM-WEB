@@ -8,9 +8,45 @@ body {
   background: #343a40;
 }
 
+
+.cbtn{
+  border-radius: 5px !important;
+  margin-bottom: 5px;
+}
+
 /* footer{
   position:absolute;
   bottom: 0px;
   right: 0px;
   left: 0px;
 } */
+
+.jc{
+  justify-content: center !important;
+}
+
+.co{
+  display: flex;
+  padding: 20px;
+  max-width: 350px !important;
+}
+
+/* body{
+  background-image: url(../src/img/black-space-outer-space.gif);
+} */
+
+/* .container-fluid{
+  padding: 0px !important;
+} */
+
+.bg-dark {
+  background-color: #343a409c!important;
+}
+
+/* .pado{
+  padding: 0px !important;
+} */
+
+.mg{
+  margin-top:20px !important;
+}
